@@ -1,4 +1,4 @@
-name: Pixel Experience Inline
+name: lineageos20
 
 
 on:
@@ -13,12 +13,12 @@ on:
         KERNEL_SOURCE:
           description: 'Kernel Source'
           required: true
-          default: "https://github.com/PixelExperience-Devices/kernel_oneplus_martini.git"
+          default: "https://github.com/LineageOS/android_kernel_oneplus_sm8350"
           type: string
         KERNEL_SOURCE_BRANCH:
           description: 'kernel Branch'
           required: true
-          default: "thirteen"
+          default: "lineage-20"
           type: string
         KERNEL_DEFCONFIG:
           description: 'Kernel Config'
