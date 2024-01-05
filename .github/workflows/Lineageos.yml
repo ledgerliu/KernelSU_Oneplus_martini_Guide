@@ -161,8 +161,8 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: "kernel/AnyKernel3/PE-Inline-martini-${{ env.TAG_NAME }}.zip"
-          tag: "PE-Inline-martini-${{ env.TAG_NAME }}"
-          name: "PE-Inline-martini-${{ env.TAG_NAME }}"
+          tag: "lineage-Inline-martini-${{ env.TAG_NAME }}"
+          name: "lineage-Inline-martini-${{ env.TAG_NAME }}"
           allowUpdates: true
           replacesArtifacts: true
           token: ${{ secrets.GITHUB_TOKEN }}     
